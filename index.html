@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/normalize.css" />
 
     <!-- Fonts CSS -->
-    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/fonts.css" />
 
     <!-- General Style -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div id="container" class="container">
+        <div id="data" class="data">
+            <h1 class="title">Users Registration</h1>
+            <div id="forms" class="forms">
+                <form id="form" class="form">
+                    <input placeholder="Enter Your Name..." type="text" />
+                    <input placeholder="Enter Your Sourname..." type="text" />
+                    <input placeholder="Enter Your Age..." type="number" />
+                    <input placeholder="Enter Your PhoneNumber..." type="number" />
+                    <input placeholder="Enter Your Email Addres..." type="email" />
+                </form>
+                <div class="location">
+                    <select id="location">
+                        <option value="Enter Your Address...">Enter Your Address...</option>
+                        <option value="Toshkent">Toshkent</option>
+                        <option value="Andijon">Andijon</option>
+                        <option value="Namangan">Namangan</option>
+                        <option value="Farg'ona">Farg'ona</option>
+                        <option value="Buxoro">Buxoro</option>
+                        <option value="Xorazm">Xorazm</option>
+                        <option value="Samarqand">Samarqand</option>
+                        <option value="Qoqon">Qoqon</option>
+                        <option value="Qoraqalpag'izton">Qoraqalpag'izton</option>
+                        <option value="Qirg'iziston">Qirg'iziston</option>
+                        <option value="Toshkent viloyati">Toshkent viloyati</option>
+                        <option value="Marg'ilon">Marg'ilon</option>
+                    </select>
+                </div>
+                <div class="nation">
+                    <select id="nationality">
+                        <option value="Enter Your Nationality...">Enter Your Nationality...</option>
+                        <option value="O'zbekcha">O'zbekcha</option>
+                        <option value="Русский">Русский</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div id="forImg" class="forImg">
+                    <input placeholder="Enter Your Image..." type="url" />
+                    <h3>or</h3>
+                    <input placeholder="Enter Your Image..." type="url" />
+                </div>
+            </div>
+            <button id="btn" class="btn">Add Information</button>
+        </div>
 
+        <div id="cards" class="cards">
+            <div id="card" class="card">
+                
+            </div>
+        </div>
+    </div>
 
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
